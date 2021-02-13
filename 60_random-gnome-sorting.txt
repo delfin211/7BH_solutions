@@ -1,0 +1,31 @@
+-- 7 Billion Humans (2231) --
+-- 60: Сортировка в одиночку --
+-- 60: Understaffed Sorting --
+-- 12 строк --
+-- 12 lines --
+-- Среднее время 275 секунд --
+-- Average time 275 seconds --
+
+
+a:
+if se < s and
+  se == datacube and
+  s == datacube and
+  w != worker and
+  e != worker and
+  sw != worker and
+  s != worker and
+  se != worker:
+    pickup s
+    drop
+    pickup se
+    step s
+    drop
+    pickup n
+    step e
+    drop
+    step n
+endif
+step w,e
+jump a
+
