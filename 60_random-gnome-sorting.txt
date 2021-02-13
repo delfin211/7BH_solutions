@@ -6,7 +6,6 @@
 -- Среднее время 275 секунд --
 -- Average time 275 seconds --
 
-
 a:
 if se < s and
   se == datacube and
@@ -28,4 +27,3 @@ if se < s and
 endif
 step w,e
 jump a
-
